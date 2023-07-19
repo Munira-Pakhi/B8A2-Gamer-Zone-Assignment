@@ -1,0 +1,111 @@
+/* work sans font from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Poppins&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* shared styles */
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Header section */
+/* navbar section */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: gray;
+}
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+.nav-description {
+  display: flex;
+  gap: 20px;
+}
+nav li {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+}
+.nav-icon{
+  height: 40px;
+}
+.nav-title{
+  font-weight: 700;
+  font-size: 40px;
+}
+.nav-title-1{
+  color: #f948b2;
+}
+.nav-header{
+  display: flex;
+  gap: 10px;
+  margin-right: 60px;
+}
+.design-1{
+  color: red;
+}
+.btn-nav {
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  margin-top: 5px;
+}
+/* banner section */
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.banner-text {
+  background-image: url("../images/Group\ 14.png");
+  padding: 200px 200px 200px 200px;
+  /* height: 300px; */
+}
+.banner-title-1 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  margin: auto;
+}
+.banner-title-2 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 80px;
+  margin: auto;
+}
+.banner-img {
+  width: 100%;
+
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.btn-1 {
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  margin-top: 5px;
+  padding: 2px 40px;
+  text-align: center;
+  color: #FFF;
+  background-color: #f948b2;
+}
+.btn-2 {
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  margin-top: 5px;
+  padding: 2px 40px;
+  text-align: center;
+  color: #FFF;
+  background-color: #4EC5F7;
+}

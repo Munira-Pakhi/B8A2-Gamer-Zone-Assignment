@@ -50,6 +50,12 @@ nav li a {
 .design-1{
   color: red;
 }
+.design-2{
+  background: linear-gradient(180deg, #090513 80%, rgb(250, 11, 11) 40%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .btn-nav {
   border-radius: 8px;
   border: none;
